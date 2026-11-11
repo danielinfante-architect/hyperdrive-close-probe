@@ -1,0 +1,7 @@
+{
+  "name": "hyperdrive-close-probe",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-03-17",
+  "compatibility_flags": ["nodejs_compat"],
+  "hyperdrive": [{ "binding": "HYPERDRIVE", "id": "<hyperdrive-config-id>" }]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "hyperdrive-close-probe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "local": "node local-close.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "pg": "8.23.1"
+  },
+  "devDependencies": {
+    "wrangler": "4.160.1"
+  }
+}
